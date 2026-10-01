@@ -16,7 +16,8 @@ def _version() -> str:
 project = "BotorView"
 author = "Team BotorView"
 copyright = "2026, Team BotorView"
-release = version = _version()
+version = "0.1.0"
+release = "0.1.0"
 
 extensions = [
     "myst_parser",
@@ -35,8 +36,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "requirements.txt"]
 html_theme = "furo"
 html_title = f"BotorView {release}"
 html_static_path = ["_static"]
-html_logo = "../src/botorview/assets/branding/botorview_banner.png"
-html_favicon = "../src/botorview/assets/branding/botorview_icon.png"
+html_logo = "_static/branding/botorview_banner.png"
+html_favicon = "_static/branding/botorview_icon.png"
+
 html_theme_options = {
     "sidebar_hide_name": True,
     "light_css_variables": {"color-brand-primary": "#0A66C2", "color-brand-content": "#0A66C2"},
