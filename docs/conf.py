@@ -16,7 +16,8 @@ def _version() -> str:
 project = "BotorView"
 author = "Team BotorView"
 copyright = "2026, Team BotorView"
-release = version = _version()
+version = "0.1.0"
+release = "0.1.0"
 
 extensions = [
     "myst_parser",
